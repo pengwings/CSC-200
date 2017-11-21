@@ -1,7 +1,6 @@
 /**
- * Created by byu on 7/12/2017.
+ * Created by Brian Yu on 7/12/2017.
  */
-
 
 public class byrandomintegers {
     public static void main(String[] args){
@@ -31,38 +30,38 @@ public class byrandomintegers {
 
         System.out.println("This is the minimum value of the array.");
         int min = random[0];
-            for(int b=0; b<10; b++){
-                if(min > random[b]){
-                    min = random[b];
-                }
+        for(int b=0; b<10; b++){
+            if(min > random[b]){
+                min = random[b];
             }
+        }
         System.out.println(min);
 
         System.out.println("This is the maximum value of the array.");
         int max = random[0];
-            for(int c=0; c<10; c++){
-                if(max<random[c]){
-                    max = random[c];
-                }
+        for(int c=0; c<10; c++){
+            if(max<random[c]){
+                max = random[c];
+            }
         }
         System.out.println(max);
 
         System.out.println("This is the sum of all the elements of the array.");
         int sum = 0;
-            for(int d=0; d<10; d++){
-                sum += random[d];
-            }
+        for(int d=0; d<10; d++){
+            sum += random[d];
+        }
         System.out.println(sum);
 
         System.out.println("This is the alternating sum of all the elements in the array.");
         int altsum = 0;
-            for(int e=0; e<10; e++){
-                if((e%2)==0){
-                    altsum += random[e];
-                }else {
-                    altsum -= random[e];
-                }
+        for(int e=0; e<10; e++){
+            if((e%2)==0){
+                altsum += random[e];
+            }else {
+                altsum -= random[e];
             }
+        }
         System.out.println(altsum);
     }
 }

@@ -1,5 +1,5 @@
 /**
- * Created by byu on 7/12/2017.
+ * Created by Brian Yu on 7/12/2017.
  */
 import java.util.Scanner;
 
